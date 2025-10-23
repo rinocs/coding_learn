@@ -1,0 +1,119 @@
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+dist/
+build/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+venv/
+.venv/
+env/
+.pytest_cache/
+coverage/
+
+# Java / JVM
+target/
+*.class
+*.jar
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Misc
+bower_components/
+.sass-cache/
+out/
+
+# C / C++
+# Object files, libraries, executables
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+*.ilk
+*.pdb
+*.idb
+*.stackdump
+
+# Coverage / profiling
+*.gcno
+*.gcda
+*.prof
+*.profraw
+
+# Build artefacts and common build dirs
+build/
+bin/
+Debug/
+Release/
+x64/
+x86/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+cmake-build-*/
+Makefile
+*.dir
+.deps/
+.libs/
+*.dSYM/
+
+# Tags / indexes
+tags
+cscope.*
+*.tags
+
+# Go (Golang)
+# Binaries, packages and test artefacts
+/bin/
+pkg/
+*.exe
+*.test
+coverage.out
+*.coverprofile
+*.out
+
+# Optional: vendor/ is sometimes committed — uncomment if you want to ignore it
+# vendor/
